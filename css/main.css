@@ -38,7 +38,8 @@ footer.vertical .copyright {
   position: fixed;
   bottom: 1rem;
   right: 3rem;
-  transform: rotate(90deg) translate(-3rem, -5rem);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
 
 .nav {
